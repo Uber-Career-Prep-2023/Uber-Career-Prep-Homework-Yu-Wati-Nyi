@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Yu Wati Nyi
  * Question 2: Reverse Vowels
  */
-public class Solution2 {
+public class ReverseVowels {
 
 
     public String reverseVowels(String input){
@@ -44,7 +44,7 @@ public class Solution2 {
     }
     public static void main(String[] args){
 
-        Solution2 solution = new Solution2();
+        ReverseVowels solution = new ReverseVowels();
         String inString = "flominga";
         String ans = solution.reverseVowels(inString);
         System.out.println(ans);

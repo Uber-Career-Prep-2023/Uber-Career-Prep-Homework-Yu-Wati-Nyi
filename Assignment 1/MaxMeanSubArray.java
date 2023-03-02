@@ -4,7 +4,7 @@
  * Time Complexity: O(n^2)
  * Space Complexity: I do not know how to find space complexity
  */
-public class Solution1{
+public class MaxMeanSubArray{
 
     /**
      * helper method to find subarray
@@ -60,7 +60,7 @@ public class Solution1{
     //main method to test test cases
     public static void main(String[] args){
 
-        Solution1 assignment = new Solution1();
+        MaxMeanSubArray assignment = new MaxMeanSubArray();
         int[] input = {1, 1, 1, 1, -1, -1, 2, -1, -1, 6};
         double mean = assignment.maxMeanSub(input, 5);
         
