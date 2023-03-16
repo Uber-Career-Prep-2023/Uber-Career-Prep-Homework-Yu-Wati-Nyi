@@ -1,4 +1,10 @@
 import java.util.Arrays;
+/**
+ * Yu Wati Nyi
+ * Question 9
+ * Time Complexity: 
+ * Space Complexity: 
+ */
 
 public class DedupArray {
 
@@ -38,3 +44,6 @@ public class DedupArray {
         System.out.println(Arrays.toString(ans));
     }   
 }
+/**
+ * time taken: 40 minutes
+ */
