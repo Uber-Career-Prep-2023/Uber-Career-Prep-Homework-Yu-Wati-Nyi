@@ -4,6 +4,7 @@ public class CopyTree {
      * time: 40 min
      * Time Complexity: O(N) each node in the tree is visited only once by recursion traversal
      * Space Complexity: O(N) the space taken is the N height of the tree given
+     * method: Simultaneous Iteration Two Pointer, LinkedList Recursion, Depth-First Search Inorder
      */
 
     //TreeNode root;
