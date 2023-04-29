@@ -218,8 +218,8 @@ public class SinglyLinkedList {
         sllist.insertAtBack( 4);
         sllist.insertAtBack( 5);
         //sllist.deleteNode(insertAfter);
-        //sllist.reverserIterative();
-        sllist.reverseRecursive(sllist.head);
+        sllist.reverserIterative();
+        //sllist.reverseRecursive(sllist.head);
 
         //Node newnode = new Node(1); //error if there is a nested class, worked after putting the class outside
 
