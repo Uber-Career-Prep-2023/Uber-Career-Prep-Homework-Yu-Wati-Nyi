@@ -62,11 +62,14 @@ public class SinglyLinkedList {
         newNode.next = loc.next; //next of curr node is now next of new Node
 
         loc.next = newNode; //next of the current node is now the new node
+
+        //cattach to current node
         
         return; 
     }
 
     //remove first Node; return new head
+    
     public Node deleteFront(){
         if(head == null){ //if head of linked list is null
             return head; //do nothing

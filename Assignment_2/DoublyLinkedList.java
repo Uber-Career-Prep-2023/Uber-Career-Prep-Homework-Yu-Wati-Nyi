@@ -2,6 +2,7 @@ public class DoublyLinkedList {
     
     
     private Node head;
+    //take advantage of the tail 
 
     /*
         * Node class

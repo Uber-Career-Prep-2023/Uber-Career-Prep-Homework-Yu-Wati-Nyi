@@ -1,6 +1,7 @@
 public class BinarySearchTree {
 
     public Node root;
+    //public final Node root; //adding final make reference not to modify the global variable
 
     public static class Node{
         int key;
