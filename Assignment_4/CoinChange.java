@@ -78,7 +78,7 @@ public class CoinChange {
         int[] coins = {2, 5, 10};
         int sum = 20;
         System.out.println(coinChange(coins, sum));
-        //output: 6
+        //output: 6 //actual ouput 7
 
         int sum2 = 15;
         System.out.println(coinChange(coins, sum2));
