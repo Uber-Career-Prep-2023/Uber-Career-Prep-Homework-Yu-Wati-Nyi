@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LargestSquareOf1s {
     /**
      * Given a square matrix of 0s and 1s, find the dimension of the largest square consisting only of 1s.
